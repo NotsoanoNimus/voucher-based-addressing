@@ -1,0 +1,872 @@
+
+
+==============================================
+Test #0...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x7C74 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xC4FB //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A2A8:6B67:7698:3211 //  Z: 0xA8A2 //  L: 0xC6E2 //  H: 0x6B6776983211
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C004:C7C0:439F:8344 //  Z: 0x04C0 //  L: 0x6A80 //  H: 0xC7C0439F8344
+	Prefix (/48 subnet): 2001:0DB8:FFFF:2583 //  Suffix: 5CDA:502B:7EA3:660B //  Z: 0xDA5C //  L: 0xB41C //  H: 0x502B7EA3660B
+Important Voucher Details:
+	Seed: 0xBF91EB620F6F230C01CCAF5BC463838B
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 23030)
+
+All checks passed!
+
+
+real	0m6.931s
+user	0m39.097s
+sys	0m2.013s
+
+
+==============================================
+Test #1...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xED8A //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x5505 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: AA3E:C1E1:78EE:BA0D //  Z: 0x3EAA //  L: 0xC114 //  H: 0xC1E178EEBA0D
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 1543:1A53:9344:C73D //  Z: 0x4315 //  L: 0xBCAB //  H: 0x1A539344C73D
+	Prefix (/48 subnet): 2001:0DB8:FFFF:C5A0 //  Suffix: C9FB:CB5F:0E93:A1BE //  Z: 0xFBC9 //  L: 0x0477 //  H: 0xCB5F0E93A1BE
+Important Voucher Details:
+	Seed: 0x41009A37A68782AAB4EF7DB5CAA9366C
+	Algorithm: Argon2  (Parallelism: 2 // MemorySize: 30554)
+
+All checks passed!
+
+
+real	0m15.417s
+user	0m29.387s
+sys	0m0.520s
+
+
+==============================================
+Test #2...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x15DF //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xAD50 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 0B47:DD01:CDD0:EE02 //  Z: 0x470B //  L: 0x40E0 //  H: 0xDD01CDD0EE02
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C01C:BF45:22E4:CFE9 //  Z: 0x1CC0 //  L: 0x1B2B //  H: 0xBF4522E4CFE9
+	Prefix (/48 subnet): 2001:0DB8:FFFF:6B59 //  Suffix: F86B:DB01:3194:0F1B //  Z: 0x6BF8 //  L: 0x6C13 //  H: 0xDB0131940F1B
+Important Voucher Details:
+	Seed: 0x14F82C031566C3F27A59BBBFAD476E7B
+	Algorithm: Scrypt  (SCALING_FACTOR: 4)
+
+All checks passed!
+
+
+real	0m0.122s
+user	0m0.120s
+sys	0m0.002s
+
+
+==============================================
+Test #3...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xF5B6 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x4D39 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: F64B:1DF9:D2B7:1A71 //  Z: 0x4BF6 //  L: 0xAC74 //  H: 0x1DF9D2B71A71
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A7E7:9B7F:B5A9:54FC //  Z: 0xE7A7 //  L: 0x0025 //  H: 0x9B7FB5A954FC
+	Prefix (/48 subnet): 2001:0DB8:FFFF:D42A //  Suffix: 4A69:1B75:6D8C:9EF3 //  Z: 0x694A //  L: 0x8EC8 //  H: 0x1B756D8C9EF3
+Important Voucher Details:
+	Seed: 0x7D184EF2E600E880EA91A1FE1C8A10CD
+	Algorithm: Scrypt  (SCALING_FACTOR: 1)
+
+All checks passed!
+
+
+real	0m0.740s
+user	0m0.738s
+sys	0m0.001s
+
+
+==============================================
+Test #4...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xBB04 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x038B //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 1E6B:2814:169E:43D8 //  Z: 0x6B1E //  L: 0xC22E //  H: 0x2814169E43D8
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 2D4B:F927:C592:1A5D //  Z: 0x4B2D //  L: 0xE21D //  H: 0xF927C5921A5D
+	Prefix (/48 subnet): 2001:0DB8:FFFF:F2E6 //  Suffix: 3483:3D32:2E25:656C //  Z: 0x8334 //  L: 0x2A04 //  H: 0x3D322E25656C
+Important Voucher Details:
+	Seed: 0xCF5665AD86774C43E901EECDD697A606
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 59302)
+
+All checks passed!
+
+
+real	0m15.146s
+user	1m32.658s
+sys	0m2.190s
+
+
+==============================================
+Test #5...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 The PBKDF2 KDF failed!
+ERROR: Exit code '-2'.
+
+real	0m3.755s
+user	0m3.730s
+sys	0m0.001s
+
+
+==============================================
+Test #6...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x1378 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xABF7 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3F2C:07A5:3F39:AE27 //  Z: 0x2C3F //  L: 0x2D73 //  H: 0x07A53F39AE27
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 0B75:A52C:0604:A74A //  Z: 0x750B //  L: 0x7447 //  H: 0xA52C0604A74A
+	Prefix (/48 subnet): 2001:0DB8:FFFF:239F //  Suffix: E3ED:9D23:A77C:97C4 //  Z: 0xEDE3 //  L: 0xECAF //  H: 0x9D23A77C97C4
+Important Voucher Details:
+	Seed: 0xB3FEB09DB54CF798AAC30E15517E582D
+	Algorithm: Argon2  (Parallelism: 1 // MemorySize: 47554)
+
+All checks passed!
+
+
+real	0m36.767s
+user	0m36.526s
+sys	0m0.144s
+
+
+==============================================
+Test #7...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x22B6 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x9A39 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A747:E4DC:4396:191E //  Z: 0x47A7 //  L: 0x7725 //  H: 0xE4DC4396191E
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 07AD:4825:7493:BB1B //  Z: 0xAD07 //  L: 0x9D85 //  H: 0x48257493BB1B
+	Prefix (/48 subnet): 2001:0DB8:FFFF:07D9 //  Suffix: 1F4B:B5F7:44C2:FFDD //  Z: 0x4B1F //  L: 0x7B9D //  H: 0xB5F744C2FFDD
+Important Voucher Details:
+	Seed: 0x7DCF5D3D55BEB48449EE5AE38F997EFD
+	Algorithm: Scrypt  (SCALING_FACTOR: 2)
+
+All checks passed!
+
+
+real	0m0.310s
+user	0m0.307s
+sys	0m0.003s
+
+
+==============================================
+Test #8...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xD7EF //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x6F60 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A03F:06E1:C6D8:8A56 //  Z: 0x3FA0 //  L: 0xFA7B //  H: 0x06E1C6D88A56
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 89AF:A942:6F5F:0441 //  Z: 0xAF89 //  L: 0x6A52 //  H: 0xA9426F5F0441
+	Prefix (/48 subnet): 2001:0DB8:FFFF:64A5 //  Suffix: 5698:4EF9:5D11:C06A //  Z: 0x9856 //  L: 0x5D8D //  H: 0x4EF95D11C06A
+Important Voucher Details:
+	Seed: 0x243A50CAAEEA264FF53D55AB9516CB80
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 21184)
+
+All checks passed!
+
+
+real	0m7.360s
+user	0m32.944s
+sys	0m1.702s
+
+
+==============================================
+Test #9...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xF589 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x4D06 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: FD20:A892:E0E4:F6BA //  Z: 0x20FD //  L: 0xC740 //  H: 0xA892E0E4F6BA
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 5C19:6B52:FB3B:3B40 //  Z: 0x195C //  L: 0xFEE1 //  H: 0x6B52FB3B3B40
+	Prefix (/48 subnet): 2001:0DB8:FFFF:6D91 //  Suffix: 29C3:F6B9:D573:3F42 //  Z: 0xC329 //  L: 0x2494 //  H: 0xF6B9D5733F42
+Important Voucher Details:
+	Seed: 0x42183C2608C07B2668AA977C25D6FA62
+	Algorithm: Argon2  (Parallelism: 5 // MemorySize: 14496)
+
+All checks passed!
+
+
+real	0m5.155s
+user	0m19.809s
+sys	0m0.800s
+
+
+==============================================
+Test #10...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x0640 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xBECF //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 792C:452C:B7A9:CA73 //  Z: 0x2C79 //  L: 0x380D //  H: 0x452CB7A9CA73
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 8200:7648:25CD:9CC3 //  Z: 0x0082 //  L: 0x14F6 //  H: 0x764825CD9CC3
+	Prefix (/48 subnet): 2001:0DB8:FFFF:2DBC //  Suffix: 84F4:E672:44B3:DF0D //  Z: 0xF484 //  L: 0xE0F0 //  H: 0xE67244B3DF0D
+Important Voucher Details:
+	Seed: 0x8BEB4142B24F63C733956A3175C3BE34
+	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+
+All checks passed!
+
+
+real	0m1.447s
+user	0m1.443s
+sys	0m0.002s
+
+
+==============================================
+Test #11...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x6589 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xDD06 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A7D4:25CC:C574:BE43 //  Z: 0xD4A7 //  L: 0xA31A //  H: 0x25CCC574BE43
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 7D71:A058:E023:0F5C //  Z: 0x717D //  L: 0x06C0 //  H: 0xA058E0230F5C
+	Prefix (/48 subnet): 2001:0DB8:FFFF:15B9 //  Suffix: 8662:E9F0:198F:90BA //  Z: 0x6286 //  L: 0x153B //  H: 0xE9F0198F90BA
+Important Voucher Details:
+	Seed: 0x4288C0F523D93A0D9A632CB5D518F0AD
+	Algorithm: Argon2  (Parallelism: 4 // MemorySize: 18040)
+
+All checks passed!
+
+
+real	0m3.315s
+user	0m11.612s
+sys	0m0.357s
+
+
+==============================================
+Test #12...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x94FB //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x2C74 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: F0EF:33C6:F3F1:0946 //  Z: 0xEFF0 //  L: 0x693F //  H: 0x33C6F3F10946
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 46D7:3D16:E061:F944 //  Z: 0xD746 //  L: 0x5189 //  H: 0x3D16E061F944
+	Prefix (/48 subnet): 2001:0DB8:FFFF:AF67 //  Suffix: 1613:F139:A6D3:DE8D //  Z: 0x1316 //  L: 0x95D9 //  H: 0xF139A6D3DE8D
+Important Voucher Details:
+	Seed: 0x30796DBE352149980F7461F92198AFC4
+	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+
+All checks passed!
+
+
+real	0m1.154s
+user	0m1.147s
+sys	0m0.003s
+
+
+==============================================
+Test #13...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xB8DE //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x0051 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C96B:DA13:EE93:9AAB //  Z: 0x6BC9 //  L: 0xC123 //  H: 0xDA13EE939AAB
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 60FC:BF15:89FA:D213 //  Z: 0xFC60 //  L: 0x568A //  H: 0xBF1589FAD213
+	Prefix (/48 subnet): 2001:0DB8:FFFF:404F //  Suffix: 9A77:0A29:C803:AEEA //  Z: 0x779A //  L: 0xDD70 //  H: 0x0A29C803AEEA
+Important Voucher Details:
+	Seed: 0x1555C85F505BF187B0DB47BD98770C30
+	Algorithm: Scrypt  (SCALING_FACTOR: 1)
+
+All checks passed!
+
+
+real	0m0.347s
+user	0m0.342s
+sys	0m0.004s
+
+
+==============================================
+Test #14...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x60D6 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xD859 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 8513:716E:087A:A67A //  Z: 0x1385 //  L: 0x6167 //  H: 0x716E087AA67A
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 8850:C41C:A070:2B28 //  Z: 0x5088 //  L: 0x226A //  H: 0xC41CA0702B28
+	Prefix (/48 subnet): 2001:0DB8:FFFF:61B9 //  Suffix: 5428:8536:6EF8:0FB5 //  Z: 0x2854 //  L: 0x5AB6 //  H: 0x85366EF80FB5
+Important Voucher Details:
+	Seed: 0x1D8DD329300DCB17EB193027B766C80C
+	Algorithm: Argon2  (Parallelism: 1 // MemorySize: 15872)
+
+All checks passed!
+
+
+real	0m9.013s
+user	0m8.978s
+sys	0m0.013s
+
+
+==============================================
+Test #15...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xEAE3 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x526C //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 2622:8451:B165:3478 //  Z: 0x2226 //  L: 0xDAF1 //  H: 0x8451B1653478
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: E663:BBE4:81D4:058E //  Z: 0x63E6 //  L: 0x9B31 //  H: 0xBBE481D4058E
+	Prefix (/48 subnet): 2001:0DB8:FFFF:378D //  Suffix: 6345:AEE8:BFF4:073F //  Z: 0x4563 //  L: 0xBDB4 //  H: 0xAEE8BFF4073F
+Important Voucher Details:
+	Seed: 0x28077287256F751A32D6E91ED198B4C1
+	Algorithm: Scrypt  (SCALING_FACTOR: 4)
+
+All checks passed!
+
+
+real	0m3.698s
+user	0m3.685s
+sys	0m0.002s
+
+
+==============================================
+Test #16...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x0605 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xBE8A //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 7AA4:D4E4:B3B6:DE21 //  Z: 0xA47A //  L: 0xB04B //  H: 0xD4E4B3B6DE21
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 749E:F125:948D:29C7 //  Z: 0x9E74 //  L: 0x8A45 //  H: 0xF125948D29C7
+	Prefix (/48 subnet): 2001:0DB8:FFFF:F797 //  Suffix: 3D8E:993A:D912:59B5 //  Z: 0x8E3D //  L: 0x9A0C //  H: 0x993AD91259B5
+Important Voucher Details:
+	Seed: 0xCEEBAE07000EF640C930933822E2ACBE
+	Algorithm: Argon2  (Parallelism: 4 // MemorySize: 19336)
+
+All checks passed!
+
+
+real	0m5.666s
+user	0m19.998s
+sys	0m0.630s
+
+
+==============================================
+Test #17...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x0AEF //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xB260 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: CCCF:E205:9A59:AFF8 //  Z: 0xCFCC //  L: 0xD717 //  H: 0xE2059A59AFF8
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: DE5A:42CA:2CE0:F8A3 //  Z: 0x5ADE //  L: 0x4205 //  H: 0x42CA2CE0F8A3
+	Prefix (/48 subnet): 2001:0DB8:FFFF:6FF6 //  Suffix: 3DDD:42D5:FEA0:8DA8 //  Z: 0xDD3D //  L: 0xC5E6 //  H: 0x42D5FEA08DA8
+Important Voucher Details:
+	Seed: 0x24E773DD2DE4CA4B58C08A568CB6973E
+	Algorithm: Scrypt  (SCALING_FACTOR: 1)
+
+All checks passed!
+
+
+real	0m0.501s
+user	0m0.497s
+sys	0m0.003s
+
+
+==============================================
+Test #18...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 The PBKDF2 KDF failed!
+ERROR: Exit code '-2'.
+
+real	0m2.317s
+user	0m2.313s
+sys	0m0.001s
+
+
+==============================================
+Test #19...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x3046 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x88C9 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 52AE:4CB6:D687:2D53 //  Z: 0xAE52 //  L: 0x8C20 //  H: 0x4CB6D6872D53
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 9C09:034F:1B3E:EEE6 //  Z: 0x099C //  L: 0x2BEE //  H: 0x034F1B3EEEE6
+	Prefix (/48 subnet): 2001:0DB8:FFFF:D8EA //  Suffix: 1B85:2713:BA61:B807 //  Z: 0x851B //  L: 0xA769 //  H: 0x2713BA61B807
+Important Voucher Details:
+	Seed: 0x8DDD1211915BB7A6473FA6D0A67D370F
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 54994)
+
+All checks passed!
+
+
+real	0m10.231s
+user	1m6.808s
+sys	0m1.748s
+
+
+==============================================
+Test #20...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x3AEC //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x8263 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C661:7117:41A0:210B //  Z: 0x61C6 //  L: 0x491E //  H: 0x711741A0210B
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: F277:4C1A:B8AA:AF98 //  Z: 0x77F2 //  L: 0x5F2A //  H: 0x4C1AB8AAAF98
+	Prefix (/48 subnet): 2001:0DB8:FFFF:7BD9 //  Suffix: C345:5AEF:767C:B04F //  Z: 0x45C3 //  L: 0x6D1B //  H: 0x5AEF767CB04F
+Important Voucher Details:
+	Seed: 0x27D7B35D69F752B51C3753A341C193A1
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 45682)
+
+All checks passed!
+
+
+real	0m7.873s
+user	0m47.679s
+sys	0m1.508s
+
+
+==============================================
+Test #21...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x200D //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x9882 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 6E72:3A03:CB53:1229 //  Z: 0x726E //  L: 0x4057 //  H: 0x3A03CB531229
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A8D0:7FF4:AC73:0535 //  Z: 0xD0A8 //  L: 0xE291 //  H: 0x7FF4AC730535
+	Prefix (/48 subnet): 2001:0DB8:FFFF:E04B //  Suffix: 2920:F496:6CB4:4F9B //  Z: 0x2029 //  L: 0x1210 //  H: 0xF4966CB44F9B
+Important Voucher Details:
+	Seed: 0xC6CD181C67847AF6F358315802743D37
+	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+
+All checks passed!
+
+
+real	0m0.460s
+user	0m0.457s
+sys	0m0.003s
+
+
+==============================================
+Test #22...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x34FD //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x8C72 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: D74B:F015:F0E0:81BE //  Z: 0x4BD7 //  L: 0x6D1E //  H: 0xF015F0E081BE
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 6E23:5B3D:7E35:C272 //  Z: 0x236E //  L: 0x05A7 //  H: 0x5B3D7E35C272
+	Prefix (/48 subnet): 2001:0DB8:FFFF:5832 //  Suffix: 5C34:B813:2E06:62C5 //  Z: 0x345C //  L: 0x1295 //  H: 0xB8132E0662C5
+Important Voucher Details:
+	Seed: 0x36D980A6A754E00C12175E2282F5C114
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 59794)
+
+All checks passed!
+
+
+real	0m6.582s
+user	0m38.299s
+sys	0m1.240s
+
+
+==============================================
+Test #23...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xDCD4 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x645B //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: FABD:2ECE:533A:05E1 //  Z: 0xBDFA //  L: 0x731A //  H: 0x2ECE533A05E1
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A975:0483:D7DE:96D8 //  Z: 0x75A9 //  L: 0xBB49 //  H: 0x0483D7DE96D8
+	Prefix (/48 subnet): 2001:0DB8:FFFF:6636 //  Suffix: 9117:7D2C:57DC:E49D //  Z: 0x1791 //  L: 0xD971 //  H: 0x7D2C57DCE49D
+Important Voucher Details:
+	Seed: 0x1F31E8F0E32C3D6435CFFD4E67D48429
+	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+
+All checks passed!
+
+
+real	0m1.739s
+user	0m1.731s
+sys	0m0.002s
+
+
+==============================================
+Test #24...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x1F41 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xA7CE //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C904:DEFD:1C47:1ACB //  Z: 0x04C9 //  L: 0x09BC //  H: 0xDEFD1C471ACB
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 684E:F8D4:FD9A:B161 //  Z: 0x4E68 //  L: 0x431D //  H: 0xF8D4FD9AB161
+	Prefix (/48 subnet): 2001:0DB8:FFFF:11C2 //  Suffix: 4257:5C61:780E:EB16 //  Z: 0x5742 //  L: 0x5A37 //  H: 0x5C61780EEB16
+Important Voucher Details:
+	Seed: 0x8AF282C2C42AF8FE674096D909B61EA0
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 32120)
+
+All checks passed!
+
+
+real	0m3.842s
+user	0m23.386s
+sys	0m0.872s
+
+
+==============================================
+Test #25...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x2C94 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x941B //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 9A06:A736:B816:180C //  Z: 0x069A //  L: 0x383A //  H: 0xA736B816180C
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 629B:6857:EB22:AB37 //  Z: 0x9B62 //  L: 0xA5C2 //  H: 0x6857EB22AB37
+	Prefix (/48 subnet): 2001:0DB8:FFFF:A062 //  Suffix: 51DF:01D3:B2CF:1C96 //  Z: 0xDF51 //  L: 0xE1F1 //  H: 0x01D3B2CF1C96
+Important Voucher Details:
+	Seed: 0x5FC122B94468CFAAB301016A0203196C
+	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+
+All checks passed!
+
+
+real	0m0.813s
+user	0m0.810s
+sys	0m0.001s
+
+
+==============================================
+Test #26...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xB127 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x09A8 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 686D:4770:2869:5E52 //  Z: 0x6D68 //  L: 0xCE7B //  H: 0x477028695E52
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 7159:6EDA:BFB7:4229 //  Z: 0x5971 //  L: 0xFA62 //  H: 0x6EDABFB74229
+	Prefix (/48 subnet): 2001:0DB8:FFFF:4B10 //  Suffix: 88AD:E1D3:EF42:EB6F //  Z: 0xAD88 //  L: 0x0E9B //  H: 0xE1D3EF42EB6F
+Important Voucher Details:
+	Seed: 0xEC5CA93FC129E6A463194B1D9512E4AC
+	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+
+All checks passed!
+
+
+real	0m2.515s
+user	0m2.500s
+sys	0m0.009s
+
+
+==============================================
+Test #27...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 The PBKDF2 KDF failed!
+ERROR: Exit code '-2'.
+
+real	0m3.420s
+user	0m3.412s
+sys	0m0.002s
+
+
+==============================================
+Test #28...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xA595 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x1D1A //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 0B00:2EF9:6492:BF7F //  Z: 0x000B //  L: 0xB7AA //  H: 0x2EF96492BF7F
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C8C6:A090:FF0C:6FC3 //  Z: 0xC6C8 //  L: 0x7169 //  H: 0xA090FF0C6FC3
+	Prefix (/48 subnet): 2001:0DB8:FFFF:889E //  Suffix: E3E7:C49F:57B2:B233 //  Z: 0xE7E3 //  L: 0x5042 //  H: 0xC49F57B2B233
+Important Voucher Details:
+	Seed: 0x5E480A176EAD2C61CC210412BE541014
+	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+
+All checks passed!
+
+
+real	0m1.090s
+user	0m1.088s
+sys	0m0.001s
+
+
+==============================================
+Test #29...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 The PBKDF2 KDF failed!
+ERROR: Exit code '-2'.
+
+real	0m0.521s
+user	0m0.520s
+sys	0m0.001s
+
+
+==============================================
+Test #30...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x2EDF //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x9650 //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: D3D5:8D4E:1B83:A126 //  Z: 0xD5D3 //  L: 0xE938 //  H: 0x8D4E1B83A126
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: BE64:90B0:AF69:8A4F //  Z: 0x64BE //  L: 0x5855 //  H: 0x90B0AF698A4F
+	Prefix (/48 subnet): 2001:0DB8:FFFF:3CC1 //  Suffix: 242F:4267:1888:56AF //  Z: 0x2F24 //  L: 0x13CF //  H: 0x4267188856AF
+Important Voucher Details:
+	Seed: 0x14C3FEFD9C397A3B2E188FCB10ECA29F
+	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+
+All checks passed!
+
+
+real	0m1.015s
+user	0m1.010s
+sys	0m0.002s
+
+
+==============================================
+Test #31...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 1 2 OK
+Self-verifying interface addresses...  0 1 2 3 4 OK
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x07D1 //  H: 0xABABABABABAB
+	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xBF5E //  H: 0x050505050505
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: ADBB:2870:1B86:8DEB //  Z: 0xBBAD //  L: 0xAE48 //  H: 0x28701B868DEB
+	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: B4AB:6F66:12FB:67F5 //  Z: 0xABB4 //  L: 0xBE51 //  H: 0x6F6612FB67F5
+	Prefix (/48 subnet): 2001:0DB8:FFFF:C4E3 //  Suffix: 5BCB:9D25:3155:5066 //  Z: 0xCB5B //  L: 0xDEBE //  H: 0x9D2531555066
+Important Voucher Details:
+	Seed: 0x1AEA9E0E1E8CC9BABC91056C07294261
+	Algorithm: Argon2  (Parallelism: 4 // MemorySize: 40144)
+
+All checks passed!
+
+
+real	0m14.532s
+user	0m53.413s
+sys	0m1.032s
+
+
+==============================================
+Test #32...
+
+Parsing Link Voucher option...  OK
+Generating VBAs...  0 The PBKDF2 KDF failed!
+ERROR: Exit code '-2'.
+
+real	0m0.408s
+user	0m0.405s
+sys	0m0.002s
