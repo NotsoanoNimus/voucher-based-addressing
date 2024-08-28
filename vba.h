@@ -14,10 +14,22 @@
 #define VBA_SEED_LENGTH             16
 #define VBA_MAX_ALGO_TYPE_LENGTH    14
 
-#define VBA_SALT_STRING             {'v', 'b', 'a'}
+#define VBA_SALT_STRING             "vba"
+#define VBA_SALT_STRING_LENGTH      3
 
 #define VBA_TAG_SECURED             2
 #define VBA_TAG_UNSECURED           1
+
+
+#define MAX_PSEUDO_ADDRESSES        16
+#define MAX_PSEDUO_SUBNETS          16
+
+
+
+#define MAX(a,b) \
+	((a) > (b) ? (a) : (b))
+#define MIN(a,b) \
+	((a) <= (b) ? (a) : (b))
 
 
 
@@ -38,6 +50,7 @@ enum {
 typedef
 struct {
     uint8_t prefix[VBA_PREFIX_LENGTH];
+    uint8_t prefix_length;
     union {
         struct {
             uint16_t Z;
@@ -46,6 +59,12 @@ struct {
         uint8_t raw[VBA_SUFFIX_LENGTH];
     } suffix;
 } __attribute__((packed)) vba_t;
+
+/**
+ * IMPORTANT: There is nothing that distinguishes an IPv6 address from a VBA.
+ *      They are one and the same and the types can be used interchangeably.
+ */
+typedef vba_t ipv6_addr_t;
 
 /**
  * An inner packet object used in vouchers to specify the KDF parameters.
@@ -64,8 +83,7 @@ struct {
         } pbkdf2_spec;
         struct {
             uint8_t     parallelism;
-            uint8_t     __padding[1];
-            uint16_t     memory_size[2];
+            uint8_t     memory_size[3];
         } argon2d_spec;
         struct {
             uint8_t     scaling_factor;
@@ -78,6 +96,8 @@ struct {
  * Specification-dictated type IDs for each KDF and an enum to easily reference them.
  */
 #define VBA_PBKDF2_TYPE     1
+#define VBA_ARGON2_TYPE     10
+#define VBA_SCRYPT_TYPE     20
 typedef
 enum {
     VBA_ALGO_PBKDF2,
@@ -102,18 +122,33 @@ struct {
     uint8_t                 __padding[8];
 } __attribute__((packed)) nd_link_voucher_option_t;
 
+
+/**
+ * Subnet structure.
+ */
+typedef
+struct {
+    uint8_t prefix[VBA_PREFIX_LENGTH];
+    size_t  length;
+} subnet_t;
+
+typedef
+struct {
+    uint8_t id[6];
+    size_t  length;
+} llid_t;
+
 /**
  * A pseudo network interface to use for generating VBAs.
  */
 typedef
 struct {
-    uint8_t                         *link_layer_id;
-    size_t                          link_layer_id_length;
-    uint8_t                         *subnet_prefix;
-    size_t                          subnet_prefix_length;
     interface_enforcement_mode_t    iem;
-    nd_link_voucher_option_t        active_voucher;
-    vba_t                           **address_pool;
+    nd_link_voucher_option_t        *active_voucher;
+    llid_t                          link_layer_id;
+    subnet_t                        *subnet_prefixes;
+    size_t                          subnet_prefixes_count;
+    vba_t                           *address_pool;
     size_t                          address_count;
 } __attribute__((packed)) pseudo_net_dev_t;
 
@@ -135,7 +170,8 @@ ndopt__process_link_voucher(
 int
 vba__generate(
     pseudo_net_dev_t    *net_device,
-    uint16_t            *work_factor,
+    size_t              subnet_index,
+    uint16_t            work_factor,
     vba_t               **new_vba
 );
 
@@ -144,9 +180,17 @@ vba__generate(
  */
 int
 vba__verify(
-    vba_t       *vba,
-    uint8_t     *ndar_link_layer_id,
-    size_t      ndar_link_layer_id_length
+    pseudo_net_dev_t            *verifier_device,
+    ipv6_addr_t                 *ndar_ip,
+    llid_t                      *ndar_link_layer_id
+);
+
+/**
+ * Print the contents of a VBA.
+ */
+void
+vba__print(
+    vba_t *vba
 );
 
 

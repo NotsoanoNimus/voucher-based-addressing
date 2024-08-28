@@ -3,7 +3,8 @@ CC = g++
 # Compiler flags
 #   Optimization level can be tweaked if over-optimization occurs.
 CFLAGS = -O3 -Wall -fpermissive
-LDLIBS = -lssl -lcrypto -largon2 -lscrypt -lscrypt-kdf
+LDLIBS = -lssl -lcrypto -largon2 -lscrypt 
+#-lscrypt-kdf
 
 # Get all .c and .cpp files in the current directory
 SRCS = $(wildcard *.c)
