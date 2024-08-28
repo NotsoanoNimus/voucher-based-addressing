@@ -48,17 +48,6 @@ struct {
 } __attribute__((packed)) vba_t;
 
 /**
- * A pseudo network interface to use for generating VBAs.
- */
-typedef
-struct {
-    uint8_t     *link_layer_id;
-    size_t      link_layer_id_length;
-    uint8_t     *subnet_prefix;
-    size_t      subnet_prefix_length;
-} __attribute__((packed)) pseudo_net_dev_t;
-
-/**
  * An inner packet object used in vouchers to specify the KDF parameters.
  * 
  * Rather than being parsed directly from an input packet data stream,
@@ -113,20 +102,38 @@ struct {
     uint8_t                 __padding[8];
 } __attribute__((packed)) nd_link_voucher_option_t;
 
+/**
+ * A pseudo network interface to use for generating VBAs.
+ */
+typedef
+struct {
+    uint8_t                         *link_layer_id;
+    size_t                          link_layer_id_length;
+    uint8_t                         *subnet_prefix;
+    size_t                          subnet_prefix_length;
+    interface_enforcement_mode_t    iem;
+    nd_link_voucher_option_t        active_voucher;
+    vba_t                           **address_pool;
+    size_t                          address_count;
+} __attribute__((packed)) pseudo_net_dev_t;
+
 
 
 /**
  * Process raw input data into a new link voucher object.
  */
-int ndopt__process_link_voucher(
+int
+ndopt__process_link_voucher(
     void                        *input_data,
+    pseudo_net_dev_t            *net_device,
     nd_link_voucher_option_t    **new_voucher
 );
 
 /**
  * Generate a new VBA object and return it.
  */
-int vba__generate(
+int
+vba__generate(
     pseudo_net_dev_t    *net_device,
     uint16_t            *work_factor,
     vba_t               **new_vba
@@ -135,10 +142,11 @@ int vba__generate(
 /**
  * Verify an input VBA based on the currently-stored Voucher information.
  */
-int vba__verify(
-    vba_t   *vba,
-    uint8_t *ndar_link_layer_id,
-    size_t  ndar_link_layer_id_length
+int
+vba__verify(
+    vba_t       *vba,
+    uint8_t     *ndar_link_layer_id,
+    size_t      ndar_link_layer_id_length
 );
 
 
