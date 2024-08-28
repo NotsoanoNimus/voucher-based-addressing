@@ -311,7 +311,8 @@ calculate_address_suffix(vba_t *vba,
     /* Now get the hash results based on the algorithm from the voucher. */
     switch (voucher->algorithm_spec->type) {
         case VBA_PBKDF2_TYPE:
-            if (0 != PKCS5_PBKDF2_HMAC((const char *)voucher->seed,
+            if (
+                0 != PKCS5_PBKDF2_HMAC((const char *)voucher->seed,
                                        VBA_SEED_LENGTH,
                                        (const uint8_t *)salt,
                                        (int)salt_length,
@@ -333,7 +334,8 @@ calculate_address_suffix(vba_t *vba,
                 memory_size += (0xFF & *(memory_size_scroll + i)) << ((3-1-i) * 8);
             }
 
-            if (0 != argon2d_hash_raw((work_factor >> 8) + 1,
+            if (
+                0 != argon2d_hash_raw((work_factor >> 8) + 1,
                                       (const uint32_t)memory_size,
                                       (const uint32_t)voucher->algorithm_spec->data.argon2d_spec.parallelism,
                                       (void *)voucher->seed,
@@ -351,7 +353,8 @@ calculate_address_suffix(vba_t *vba,
         case VBA_SCRYPT_TYPE:
             scaling_factor = MIN(5, voucher->algorithm_spec->data.scrypt_spec.scaling_factor);
 
-            if (0 != libscrypt_scrypt(voucher->seed,
+            if (
+                0 != libscrypt_scrypt(voucher->seed,
                                       VBA_SEED_LENGTH,
                                       salt,
                                       salt_length,
