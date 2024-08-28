@@ -173,7 +173,7 @@ main(int argc,
     printf("\nAddresses:\n");
     for (size_t i = 0; i < THIS_INTERFACE.address_count; ++i) {
         printf("\t");
-        vba__print(&(THIS_INTERFACE.address_pool[i]));
+        vba__print(&(THIS_INTERFACE.address_pool[i]), THIS_INTERFACE.active_voucher);
         printf("\n");
     }
 

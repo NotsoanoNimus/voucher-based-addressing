@@ -204,12 +204,12 @@ vba__verify(pseudo_net_dev_t *verifier_device,
      *   the neighbor should be denied communications, depending on IEM.
      */
     is_verified = (0 == memcmp(ndar_ip, new_vba, sizeof(vba_t)));
-    printf("\nIN:  ");
-    for (size_t i = 0; i < sizeof(vba_t); ++i) printf("%02X ", ((uint8_t *)ndar_ip)[i]);
-    printf("\nOUT: ");
-    for (size_t i = 0; i < sizeof(vba_t); ++i) printf("%02X ", ((uint8_t *)new_vba)[i]);
-    printf("\n");
-    fflush(stdout);
+    // printf("\nIN:  ");
+    // for (size_t i = 0; i < sizeof(vba_t); ++i) printf("%02X ", ((uint8_t *)ndar_ip)[i]);
+    // printf("\nOUT: ");
+    // for (size_t i = 0; i < sizeof(vba_t); ++i) printf("%02X ", ((uint8_t *)new_vba)[i]);
+    // printf("\n");
+    // fflush(stdout);
 
 Label__verify_RenderDecision:
 
@@ -240,7 +240,8 @@ Label__verify_RenderDecision:
 
 
 void
-vba__print(vba_t *vba)
+vba__print(vba_t *vba,
+           nd_link_voucher_option_t *voucher)
 {
     printf("Prefix (/%u subnet): ", vba->prefix_length * 8);
     for (int i = 0; i < VBA_PREFIX_LENGTH; ++i) {
@@ -254,7 +255,12 @@ vba__print(vba_t *vba)
         if (i > 0 && i < (VBA_PREFIX_LENGTH - 1) && (i % 2)) printf(":");
     }
 
-    printf(" //  Z: 0x"); for (int i = 0; i < 2; ++i) printf("%02X", ((uint8_t *)&(vba->suffix.Z))[i]);
+    // printf(" //  Z: 0x"); for (int i = 0; i < 2; ++i) printf("%02X", ((uint8_t *)&(vba->suffix.Z))[i]);
+    printf(" //  Z: 0x%04X", vba->suffix.Z);
+    if (NULL != voucher) {
+        printf(" //  L: 0x%04X", (uint16_t)~(vba->suffix.Z ^ *((uint16_t *)(voucher->seed))));
+    }
+
     printf(" //  H: 0x"); for (int i = 0; i < 6; ++i) printf("%02X", vba->suffix.H[i]);
 }
 

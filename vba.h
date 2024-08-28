@@ -190,7 +190,8 @@ vba__verify(
  */
 void
 vba__print(
-    vba_t *vba
+    vba_t                       *vba,
+    nd_link_voucher_option_t    *voucher
 );
 
 
