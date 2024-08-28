@@ -99,7 +99,7 @@ main(int argc,
     *((uint64_t *)(&raw_ndopt[24]))   = Xoshiro128p__next_bounded_any();
     *((uint64_t *)(&raw_ndopt[24+8])) = Xoshiro128p__next_bounded_any();
 
-    raw_ndopt[41] = 2;//Xoshiro128p__next_bounded_any() % 3;
+    raw_ndopt[41] = Xoshiro128p__next_bounded_any() % 3;
     if (0 == raw_ndopt[41])         raw_ndopt[41] = VBA_PBKDF2_TYPE;
     else if (1 == raw_ndopt[41])    raw_ndopt[41] = VBA_ARGON2_TYPE;
     else                            raw_ndopt[41] = VBA_SCRYPT_TYPE;
