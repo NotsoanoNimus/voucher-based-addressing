@@ -114,7 +114,7 @@ main(int argc,
             for (size_t i = 1; i < 4; ++i) raw_ndopt[44 + i] = (uint8_t)Xoshiro128p__next_bounded_any();
             break;
         case VBA_SCRYPT_TYPE:
-            raw_ndopt[44] = (uint8_t)(1 + (Xoshiro128p__next_bounded_any() % (5-1)));   /* SCALING_FACTOR */
+            raw_ndopt[44] = (uint8_t)(Xoshiro128p__next_bounded_any() % 6);   /* SCALING_FACTOR */
             break;
     }
 
