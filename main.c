@@ -4,6 +4,7 @@
 
 #include <string.h>
 #include <stdio.h>
+#include <time.h>
 
 
 
@@ -46,6 +47,9 @@ main(int argc,
 {
     int status = 0;
     uint16_t work_factor = 0;
+
+    clock_t begin, end;
+    double time_spent = 0.0;
 
     uint32_t argon_memory_size = 0;
     uint8_t *argon_memory_size_scroll = NULL;
@@ -126,57 +130,6 @@ main(int argc,
     ASSERT(NULL != THIS_INTERFACE.active_voucher);
     printf("OK\n");
 
-    /* Generate two link-local VBAs and one for the other prefix. */
-    printf("Generating VBAs...  "); fflush(stdout);
-
-    for (size_t i = 0; i < 3; ++i) {
-        printf("%lu ", i); fflush(stdout);
-        vba_t *new_vba = NULL;
-
-        work_factor = (uint16_t)Xoshiro128p__next_bounded_any();
-        status = vba__generate(&THIS_INTERFACE, (i < 2) ? 0 : 1, work_factor, &new_vba);
-        if (0 != status) break;
-
-        memcpy(&(THIS_INTERFACE.address_pool[i + 2]), new_vba, sizeof(vba_t));
-        THIS_INTERFACE.address_count++;
-        free(new_vba);
-
-        ASSERT(0 != THIS_INTERFACE.address_pool[i].suffix.Z);
-    }
-
-    if (0 != status) goto Label__ErrorExit;
-    printf("OK\n");
-
-    printf("Self-verifying interface addresses...  "); fflush(stdout);
-    for (size_t i = 0; i < THIS_INTERFACE.address_count; ++i) {
-        printf("%lu ", i); fflush(stdout);
-        status = vba__verify(&THIS_INTERFACE,
-                             &(THIS_INTERFACE.address_pool[i]),
-                             &(THIS_INTERFACE.link_layer_id));
-
-        if (VBA_IEM_AGV == THIS_INTERFACE.iem) {
-            if (i < 2) {
-                ASSERT(0 != status);   /* The first two addresses are STATIC and NOT VBAs. */
-            } else {
-                ASSERT(0 == status);   /* The other addresses ARE valid VBAs. */
-            }
-        }
-    }
-    printf("OK\n");
-
-    printf("\n\nSUMMARY\nMac Address:\n");
-    printf("\t");
-    for (size_t i = 0; i < THIS_INTERFACE.link_layer_id.length; ++i) {
-        printf("%02X%c", THIS_INTERFACE.link_layer_id.id[i], (i < (THIS_INTERFACE.link_layer_id.length - 1) ? '-' : ' '));
-    }
-
-    printf("\nAddresses:\n");
-    for (size_t i = 0; i < THIS_INTERFACE.address_count; ++i) {
-        printf("\t");
-        vba__print(&(THIS_INTERFACE.address_pool[i]), THIS_INTERFACE.active_voucher);
-        printf("\n");
-    }
-
     printf("Important Voucher Details:\n");
     printf("\tSeed: 0x");
     for (int i = 0; i < VBA_SEED_LENGTH; ++i)
@@ -213,7 +166,71 @@ main(int argc,
             break;
     }
 
-    printf("\n\nAll checks passed!\n\n");
+    /* Generate two link-local VBAs and one for the other prefix. */
+    printf("\n\nGenerating VBAs...\n");
+    for (size_t i = 0; i < 3; ++i) {
+        printf("%lu  ", i); fflush(stdout);
+
+        vba_t *new_vba = NULL;
+        work_factor = (uint16_t)Xoshiro128p__next_bounded_any();
+
+        begin = clock();
+        status = vba__generate(&THIS_INTERFACE, (i < 2) ? 0 : 1, work_factor, &new_vba);
+        end = clock();
+        time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+
+        printf("(work factor '%04X'; generated in %fs)\n", work_factor, time_spent);
+
+        if (0 != status) break;
+
+        memcpy(&(THIS_INTERFACE.address_pool[i + 2]), new_vba, sizeof(vba_t));
+        THIS_INTERFACE.address_count++;
+        free(new_vba);
+
+        ASSERT(0 != THIS_INTERFACE.address_pool[i].suffix.Z);
+    }
+
+    printf("\n\nSelf-verifying interface addresses...\n");
+    for (size_t i = 0; i < THIS_INTERFACE.address_count; ++i) {
+        printf("%lu  ", i); fflush(stdout);
+
+        begin = clock();
+        status = vba__verify(&THIS_INTERFACE,
+                             &(THIS_INTERFACE.address_pool[i]),
+                             &(THIS_INTERFACE.link_layer_id));
+        end = clock();
+        time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+
+        if (VBA_IEM_AGV == THIS_INTERFACE.iem) {
+            if (i < 2) {
+                ASSERT(0 != status);   /* The first two addresses are STATIC and NOT VBAs. */
+                printf("NOT A VBA. Verification failed as it should.\n");
+            } else {
+                ASSERT(0 == status);   /* The other addresses ARE valid VBAs. */
+                printf("(verified in %fs)\n", time_spent);
+            }
+        }
+    }
+
+    printf("\n\nSUMMARY\nMac Address:\n");
+    printf("\t");
+    for (size_t i = 0; i < THIS_INTERFACE.link_layer_id.length; ++i) {
+        printf("%02X%c", THIS_INTERFACE.link_layer_id.id[i], (i < (THIS_INTERFACE.link_layer_id.length - 1) ? '-' : ' '));
+    }
+
+    printf("\nAddresses:\n");
+    for (size_t i = 0; i < THIS_INTERFACE.address_count; ++i) {
+        printf("\t%lu:  ", i);
+        vba__print(&(THIS_INTERFACE.address_pool[i]), THIS_INTERFACE.active_voucher);
+
+        if (i < 2) {
+            printf("\n\t\t(VBA verification intentionally failed; this is a static address.)\n\n");
+        } else {
+            printf("\n\t\t(VBA verification success.)\n\n");
+        }
+    }
+
+    printf("\nAll checks passed!\n\n");
     return 0;
 
 Label__ErrorExit:
