@@ -335,15 +335,15 @@ calculate_address_suffix(vba_t *vba,
             }
 
             if (
-                0 != argon2d_hash_raw((work_factor >> 8) + 1,
-                                      (const uint32_t)memory_size,
-                                      (const uint32_t)voucher->algorithm_spec->data.argon2d_spec.parallelism,
-                                      (void *)voucher->seed,
-                                      VBA_SEED_LENGTH,
-                                      (void *)salt,
-                                      salt_length,
-                                      hash_result,
-                                      (const size_t)hash_result_length)
+                ARGON2_OK != argon2d_hash_raw((work_factor >> 8) + 1,
+                                              (const uint32_t)memory_size,
+                                              (const uint32_t)voucher->algorithm_spec->data.argon2d_spec.parallelism,
+                                              (void *)voucher->seed,
+                                              VBA_SEED_LENGTH,
+                                              (void *)salt,
+                                              salt_length,
+                                              hash_result,
+                                              (const size_t)hash_result_length)
             ) {
                 fprintf(stderr, "The Argon2 KDF failed!\n");
                 free(salt);
