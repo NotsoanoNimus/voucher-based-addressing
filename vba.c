@@ -312,7 +312,7 @@ calculate_address_suffix(vba_t *vba,
     switch (voucher->algorithm_spec->type) {
         case VBA_PBKDF2_TYPE:
             if (
-                0 != PKCS5_PBKDF2_HMAC((const char *)voucher->seed,
+                1 != PKCS5_PBKDF2_HMAC((const char *)voucher->seed,
                                        VBA_SEED_LENGTH,
                                        (const uint8_t *)salt,
                                        (int)salt_length,
