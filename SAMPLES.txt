@@ -4,760 +4,1399 @@
 Test #0...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x4CE403A327F25F58753C623B775F8B4B
+	Algorithm: Argon2  (Parallelism: 1 // MemorySize: 48774)
+
+Generating VBAs...
+0  (work factor 'E873'; generated in 8.295305s)
+1  (work factor '22DF'; generated in 1.220886s)
+2  (work factor '0005'; generated in 0.053240s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 8.042367s)
+3  (verified in 1.218466s)
+4  (verified in 0.053944s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x7C74 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xC4FB //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A2A8:6B67:7698:3211 //  Z: 0xA8A2 //  L: 0xC6E2 //  H: 0x6B6776983211
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C004:C7C0:439F:8344 //  Z: 0x04C0 //  L: 0x6A80 //  H: 0xC7C0439F8344
-	Prefix (/48 subnet): 2001:0DB8:FFFF:2583 //  Suffix: 5CDA:502B:7EA3:660B //  Z: 0xDA5C //  L: 0xB41C //  H: 0x502B7EA3660B
-Important Voucher Details:
-	Seed: 0xBF91EB620F6F230C01CCAF5BC463838B
-	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 23030)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x0987 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xB108 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C0F3:53B0:AD0E:BEB2 //  Z: 0xF3C0 //  L: 0xE873 //  H: 0x53B0AD0EBEB2
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 6C39:BF45:811F:9C4C //  Z: 0x396C //  L: 0x22DF //  H: 0xBF45811F9C4C
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:3A93 //  Suffix: B61B:7B7C:02CA:392B //  Z: 0x1BB6 //  L: 0x0005 //  H: 0x7B7C02CA392B
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m6.931s
-user	0m39.097s
-sys	0m2.013s
+real	0m25.444s
+user	0m25.282s
+sys	0m0.103s
 
 
 ==============================================
 Test #1...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0xED62FFB3FB8CD9EB71F646377569B0B0
+	Algorithm: Argon2  (Parallelism: 5 // MemorySize: 42260)
+
+Generating VBAs...
+0  (work factor '09FE'; generated in 0.440700s)
+1  (work factor '3A4E'; generated in 2.498817s)
+2  (work factor '83F6'; generated in 5.578718s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.450500s)
+3  (verified in 2.500264s)
+4  (verified in 5.594357s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xED8A //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x5505 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: AA3E:C1E1:78EE:BA0D //  Z: 0x3EAA //  L: 0xC114 //  H: 0xC1E178EEBA0D
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 1543:1A53:9344:C73D //  Z: 0x4315 //  L: 0xBCAB //  H: 0x1A539344C73D
-	Prefix (/48 subnet): 2001:0DB8:FFFF:C5A0 //  Suffix: C9FB:CB5F:0E93:A1BE //  Z: 0xFBC9 //  L: 0x0477 //  H: 0xCB5F0E93A1BE
-Important Voucher Details:
-	Seed: 0x41009A37A68782AAB4EF7DB5CAA9366C
-	Algorithm: Argon2  (Parallelism: 2 // MemorySize: 30554)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x8F26 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x37A9 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: EC94:DF30:030D:0D6A //  Z: 0x94EC //  L: 0x09FE //  H: 0xDF30030D0D6A
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 5CA7:BB72:EF5F:5F6D //  Z: 0xA75C //  L: 0x3A4E //  H: 0xBB72EF5F5F6D
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:9FA0 //  Suffix: E41E:AB70:626D:ED12 //  Z: 0x1EE4 //  L: 0x83F6 //  H: 0xAB70626DED12
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m15.417s
-user	0m29.387s
-sys	0m0.520s
+real	0m6.086s
+user	0m24.988s
+sys	0m0.546s
 
 
 ==============================================
 Test #2...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x0370E05C5A7D1577DF65EFEE94CE2951
+	Algorithm: Scrypt  (SCALING_FACTOR: 4)
+
+Generating VBAs...
+0  (work factor '71DC'; generated in 0.190365s)
+1  (work factor '8BC7'; generated in 0.193775s)
+2  (work factor '0958'; generated in 0.007587s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.182299s)
+3  (verified in 0.193260s)
+4  (verified in 0.007578s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x15DF //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xAD50 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 0B47:DD01:CDD0:EE02 //  Z: 0x470B //  L: 0x40E0 //  H: 0xDD01CDD0EE02
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C01C:BF45:22E4:CFE9 //  Z: 0x1CC0 //  L: 0x1B2B //  H: 0xBF4522E4CFE9
-	Prefix (/48 subnet): 2001:0DB8:FFFF:6B59 //  Suffix: F86B:DB01:3194:0F1B //  Z: 0x6BF8 //  L: 0x6C13 //  H: 0xDB0131940F1B
-Important Voucher Details:
-	Seed: 0x14F82C031566C3F27A59BBBFAD476E7B
-	Algorithm: Scrypt  (SCALING_FACTOR: 4)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x9DC8 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x2547 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 20FE:BF7D:A84D:1610 //  Z: 0xFE20 //  L: 0x71DC //  H: 0xBF7DA84D1610
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3B04:E147:3C56:33A4 //  Z: 0x043B //  L: 0x8BC7 //  H: 0xE1473C5633A4
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:18C3 //  Suffix: A486:CCD0:2060:8909 //  Z: 0x86A4 //  L: 0x0958 //  H: 0xCCD020608909
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m0.122s
-user	0m0.120s
-sys	0m0.002s
+real	0m1.223s
+user	0m1.221s
+sys	0m0.001s
 
 
 ==============================================
 Test #3...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x1FA4F28ABFC7B5DBEEE583D608E6FEFC
+	Algorithm: PBKDF2  (ITERATIONS_FACTOR: 16)
+
+Generating VBAs...
+0  (work factor '51A6'; generated in 0.161044s)
+1  (work factor 'F0E6'; generated in 0.479500s)
+2  (work factor 'B308'; generated in 0.356380s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.161228s)
+3  (verified in 0.475143s)
+4  (verified in 0.354153s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xF5B6 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x4D39 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: F64B:1DF9:D2B7:1A71 //  Z: 0x4BF6 //  L: 0xAC74 //  H: 0x1DF9D2B71A71
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A7E7:9B7F:B5A9:54FC //  Z: 0xE7A7 //  L: 0x0025 //  H: 0x9B7FB5A954FC
-	Prefix (/48 subnet): 2001:0DB8:FFFF:D42A //  Suffix: 4A69:1B75:6D8C:9EF3 //  Z: 0x694A //  L: 0x8EC8 //  H: 0x1B756D8C9EF3
-Important Voucher Details:
-	Seed: 0x7D184EF2E600E880EA91A1FE1C8A10CD
-	Algorithm: Scrypt  (SCALING_FACTOR: 1)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x49D4 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xF15B //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 460A:19AF:1DFA:E6BE //  Z: 0x0A46 //  L: 0x51A6 //  H: 0x19AF1DFAE6BE
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 06AB:0745:CAD6:917D //  Z: 0xAB06 //  L: 0xF0E6 //  H: 0x0745CAD6917D
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:3593 //  Suffix: E8E8:0CE6:B232:D4DE //  Z: 0xE8E8 //  L: 0xB308 //  H: 0x0CE6B232D4DE
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m0.740s
-user	0m0.738s
-sys	0m0.001s
+real	0m2.625s
+user	0m2.622s
+sys	0m0.000s
 
 
 ==============================================
 Test #4...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x0F76D9C33C663E80AF79B5F41742A8DF
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 11660)
+
+Generating VBAs...
+0  (work factor 'D5D0'; generated in 2.981995s)
+1  (work factor 'C729'; generated in 2.794587s)
+2  (work factor '16EF'; generated in 0.319863s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 3.057955s)
+3  (verified in 2.857433s)
+4  (verified in 0.327957s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xBB04 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x038B //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 1E6B:2814:169E:43D8 //  Z: 0x6B1E //  L: 0xC22E //  H: 0x2814169E43D8
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 2D4B:F927:C592:1A5D //  Z: 0x4B2D //  L: 0xE21D //  H: 0xF927C5921A5D
-	Prefix (/48 subnet): 2001:0DB8:FFFF:F2E6 //  Suffix: 3483:3D32:2E25:656C //  Z: 0x8334 //  L: 0x2A04 //  H: 0x3D322E25656C
-Important Voucher Details:
-	Seed: 0xCF5665AD86774C43E901EECDD697A606
-	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 59302)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x9BC4 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x234B //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 205C:71FD:5238:1071 //  Z: 0x5C20 //  L: 0xD5D0 //  H: 0x71FD52381071
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: D94E:6750:C221:1C32 //  Z: 0x4ED9 //  L: 0xC729 //  H: 0x6750C2211C32
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:7C16 //  Suffix: 1F9F:9494:9FF6:BAD5 //  Z: 0x9F1F //  L: 0x16EF //  H: 0x94949FF6BAD5
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m15.146s
-user	1m32.658s
-sys	0m2.190s
+real	0m2.599s
+user	0m13.865s
+sys	0m1.226s
 
 
 ==============================================
 Test #5...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 The PBKDF2 KDF failed!
-ERROR: Exit code '-2'.
+Important Voucher Details:
+	Seed: 0x2777723EC0DF86E4E20268BAD538E815
+	Algorithm: Argon2  (Parallelism: 4 // MemorySize: 32786)
 
-real	0m3.755s
-user	0m3.730s
-sys	0m0.001s
+Generating VBAs...
+0  (work factor 'A9F1'; generated in 4.850820s)
+1  (work factor '424D'; generated in 1.905688s)
+2  (work factor 'AC63'; generated in 4.915483s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 4.818690s)
+3  (verified in 1.908975s)
+4  (verified in 4.884303s)
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x9AEC //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x2263 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 2921:D8D3:24F0:7371 //  Z: 0x2129 //  L: 0xA9F1 //  H: 0xD8D324F07371
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 95CA:D42C:A1F9:47D6 //  Z: 0xCA95 //  L: 0x424D //  H: 0xD42CA1F947D6
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:D81A //  Suffix: BB24:6129:54BF:CFD6 //  Z: 0x24BB //  L: 0xAC63 //  H: 0x612954BFCFD6
+		(VBA verification success.)
+
+
+All checks passed!
+
+
+real	0m7.568s
+user	0m28.094s
+sys	0m0.597s
 
 
 ==============================================
 Test #6...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0xBBC4DBE4D53E46E621EEEC15DC70535E
+	Algorithm: Scrypt  (SCALING_FACTOR: 2)
+
+Generating VBAs...
+0  (work factor '9315'; generated in 0.007219s)
+1  (work factor '6E67'; generated in 0.016010s)
+2  (work factor '6FE7'; generated in 0.032592s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.005933s)
+3  (verified in 0.013882s)
+4  (verified in 0.032386s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x1378 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xABF7 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3F2C:07A5:3F39:AE27 //  Z: 0x2C3F //  L: 0x2D73 //  H: 0x07A53F39AE27
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 0B75:A52C:0604:A74A //  Z: 0x750B //  L: 0x7447 //  H: 0xA52C0604A74A
-	Prefix (/48 subnet): 2001:0DB8:FFFF:239F //  Suffix: E3ED:9D23:A77C:97C4 //  Z: 0xEDE3 //  L: 0xECAF //  H: 0x9D23A77C97C4
-Important Voucher Details:
-	Seed: 0xB3FEB09DB54CF798AAC30E15517E582D
-	Algorithm: Argon2  (Parallelism: 1 // MemorySize: 47554)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x2970 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x91FF //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 51A8:D047:1A2D:6058 //  Z: 0xA851 //  L: 0x9315 //  H: 0xD0471A2D6058
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 2355:1162:CE50:5AAD //  Z: 0x5523 //  L: 0x6E67 //  H: 0x1162CE505AAD
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:B79D //  Suffix: A354:0D88:FBBA:41F4 //  Z: 0x54A3 //  L: 0x6FE7 //  H: 0x0D88FBBA41F4
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m36.767s
-user	0m36.526s
-sys	0m0.144s
+real	0m0.375s
+user	0m0.373s
+sys	0m0.002s
 
 
 ==============================================
 Test #7...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0xCDC5F50CE7B2D75744B789C313C40C18
+	Algorithm: Scrypt  (SCALING_FACTOR: 0)
+
+Generating VBAs...
+0  (work factor 'F55E'; generated in 0.317542s)
+1  (work factor '5791'; generated in 0.000790s)
+2  (work factor '04EC'; generated in 0.009814s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.323910s)
+3  (verified in 0.000794s)
+4  (verified in 0.009848s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x22B6 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x9A39 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A747:E4DC:4396:191E //  Z: 0x47A7 //  L: 0x7725 //  H: 0xE4DC4396191E
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 07AD:4825:7493:BB1B //  Z: 0xAD07 //  L: 0x9D85 //  H: 0x48257493BB1B
-	Prefix (/48 subnet): 2001:0DB8:FFFF:07D9 //  Suffix: 1F4B:B5F7:44C2:FFDD //  Z: 0x4B1F //  L: 0x7B9D //  H: 0xB5F744C2FFDD
-Important Voucher Details:
-	Seed: 0x7DCF5D3D55BEB48449EE5AE38F997EFD
-	Algorithm: Scrypt  (SCALING_FACTOR: 2)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x2806 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x9089 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 6CCF:1FC1:7E0A:F1BA //  Z: 0xCF6C //  L: 0xF55E //  H: 0x1FC17E0AF1BA
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A36D:45F5:6D9A:7B45 //  Z: 0x6DA3 //  L: 0x5791 //  H: 0x45F56D9A7B45
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:FAFA //  Suffix: DE3E:6B2E:3717:2704 //  Z: 0x3EDE //  L: 0x04EC //  H: 0x6B2E37172704
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m0.310s
-user	0m0.307s
-sys	0m0.003s
+real	0m0.692s
+user	0m0.685s
+sys	0m0.004s
 
 
 ==============================================
 Test #8...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x4279C3F8CF3F05F12927A5976573B8BA
+	Algorithm: Scrypt  (SCALING_FACTOR: 4)
+
+Generating VBAs...
+0  (work factor 'D2AC'; generated in 2.196829s)
+1  (work factor '9825'; generated in 0.045827s)
+2  (work factor '58D6'; generated in 0.048045s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 2.194998s)
+3  (verified in 0.046363s)
+4  (verified in 0.048418s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xD7EF //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x6F60 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A03F:06E1:C6D8:8A56 //  Z: 0x3FA0 //  L: 0xFA7B //  H: 0x06E1C6D88A56
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 89AF:A942:6F5F:0441 //  Z: 0xAF89 //  L: 0x6A52 //  H: 0xA9426F5F0441
-	Prefix (/48 subnet): 2001:0DB8:FFFF:64A5 //  Suffix: 5698:4EF9:5D11:C06A //  Z: 0x9856 //  L: 0x5D8D //  H: 0x4EF95D11C06A
-Important Voucher Details:
-	Seed: 0x243A50CAAEEA264FF53D55AB9516CB80
-	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 21184)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x9489 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x2C06 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 1154:93D6:FA69:9448 //  Z: 0x5411 //  L: 0xD2AC //  H: 0x93D6FA699448
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 981E:173E:A86E:D641 //  Z: 0x1E98 //  L: 0x9825 //  H: 0x173EA86ED641
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:3CB2 //  Suffix: 6BDE:A02D:5D98:3FE2 //  Z: 0xDE6B //  L: 0x58D6 //  H: 0xA02D5D983FE2
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m7.360s
-user	0m32.944s
-sys	0m1.702s
+real	0m4.918s
+user	0m4.908s
+sys	0m0.003s
 
 
 ==============================================
 Test #9...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x45F91944978E7B4FC4049DE1B1CEE2A7
+	Algorithm: Scrypt  (SCALING_FACTOR: 5)
+
+Generating VBAs...
+0  (work factor 'CBF7'; generated in 3.916442s)
+1  (work factor '5925'; generated in 0.011928s)
+2  (work factor 'BED4'; generated in 0.958210s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 3.925671s)
+3  (verified in 0.011826s)
+4  (verified in 0.950027s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xF589 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x4D06 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: FD20:A892:E0E4:F6BA //  Z: 0x20FD //  L: 0xC740 //  H: 0xA892E0E4F6BA
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 5C19:6B52:FB3B:3B40 //  Z: 0x195C //  L: 0xFEE1 //  H: 0x6B52FB3B3B40
-	Prefix (/48 subnet): 2001:0DB8:FFFF:6D91 //  Suffix: 29C3:F6B9:D573:3F42 //  Z: 0xC329 //  L: 0x2494 //  H: 0xF6B9D5733F42
-Important Voucher Details:
-	Seed: 0x42183C2608C07B2668AA977C25D6FA62
-	Algorithm: Argon2  (Parallelism: 5 // MemorySize: 14496)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x148E //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xAC01 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 4DCD:4763:5973:03B7 //  Z: 0xCD4D //  L: 0xCBF7 //  H: 0x4763597303B7
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 9F5F:61D9:995B:CC8B //  Z: 0x5F9F //  L: 0x5925 //  H: 0x61D9995BCC8B
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:60B8 //  Suffix: 6EB8:9B19:714E:8F88 //  Z: 0xB86E //  L: 0xBED4 //  H: 0x9B19714E8F88
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m5.155s
-user	0m19.809s
-sys	0m0.800s
+real	0m9.839s
+user	0m9.811s
+sys	0m0.004s
 
 
 ==============================================
 Test #10...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x49DC0D0653FC33DD47A441833603D40E
+	Algorithm: Scrypt  (SCALING_FACTOR: 4)
+
+Generating VBAs...
+0  (work factor 'FFC7'; generated in 6.400918s)
+1  (work factor '9AF0'; generated in 0.069714s)
+2  (work factor 'D6C2'; generated in 0.444659s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 6.401108s)
+3  (verified in 0.069661s)
+4  (verified in 0.440099s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x0640 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xBECF //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 792C:452C:B7A9:CA73 //  Z: 0x2C79 //  L: 0x380D //  H: 0x452CB7A9CA73
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 8200:7648:25CD:9CC3 //  Z: 0x0082 //  L: 0x14F6 //  H: 0x764825CD9CC3
-	Prefix (/48 subnet): 2001:0DB8:FFFF:2DBC //  Suffix: 84F4:E672:44B3:DF0D //  Z: 0xF484 //  L: 0xE0F0 //  H: 0xE67244B3DF0D
-Important Voucher Details:
-	Seed: 0x8BEB4142B24F63C733956A3175C3BE34
-	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x3182 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x890D //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 71DC:6D02:AA89:2F65 //  Z: 0xDC71 //  L: 0xFFC7 //  H: 0x6D02AA892F65
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 46B9:096F:3BF8:662B //  Z: 0xB946 //  L: 0x9AF0 //  H: 0x096F3BF8662B
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:BE14 //  Suffix: 74F5:C7FD:22E9:86C0 //  Z: 0xF574 //  L: 0xD6C2 //  H: 0xC7FD22E986C0
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m1.447s
-user	0m1.443s
-sys	0m0.002s
+real	0m13.856s
+user	0m13.826s
+sys	0m0.010s
 
 
 ==============================================
 Test #11...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0xD68F056F52309EFB1C59E9B04D749BE7
+	Algorithm: Scrypt  (SCALING_FACTOR: 2)
+
+Generating VBAs...
+0  (work factor 'B165'; generated in 0.069499s)
+1  (work factor '1A91'; generated in 0.000771s)
+2  (work factor '922A'; generated in 0.023522s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.069303s)
+3  (verified in 0.000777s)
+4  (verified in 0.023516s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x6589 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xDD06 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A7D4:25CC:C574:BE43 //  Z: 0xD4A7 //  L: 0xA31A //  H: 0x25CCC574BE43
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 7D71:A058:E023:0F5C //  Z: 0x717D //  L: 0x06C0 //  H: 0xA058E0230F5C
-	Prefix (/48 subnet): 2001:0DB8:FFFF:15B9 //  Suffix: 8662:E9F0:198F:90BA //  Z: 0x6286 //  L: 0x153B //  H: 0xE9F0198F90BA
-Important Voucher Details:
-	Seed: 0x4288C0F523D93A0D9A632CB5D518F0AD
-	Algorithm: Argon2  (Parallelism: 4 // MemorySize: 18040)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x621D //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xDA92 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 4CC1:7F5F:5E30:E09C //  Z: 0xC14C //  L: 0xB165 //  H: 0x7F5F5E30E09C
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: B86A:EABA:AF9C:41D0 //  Z: 0x6AB8 //  L: 0x1A91 //  H: 0xEABAAF9C41D0
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:F8E8 //  Suffix: 03E2:DE18:082C:9733 //  Z: 0xE203 //  L: 0x922A //  H: 0xDE18082C9733
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m3.315s
-user	0m11.612s
-sys	0m0.357s
+real	0m0.360s
+user	0m0.358s
+sys	0m0.002s
 
 
 ==============================================
 Test #12...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x4FE70F327AE4C8B73E1199A6B96CD933
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 20880)
+
+Generating VBAs...
+0  (work factor '3301'; generated in 1.378431s)
+1  (work factor '9380'; generated in 3.897597s)
+2  (work factor '9C8B'; generated in 4.132787s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 1.404852s)
+3  (verified in 4.006555s)
+4  (verified in 4.233572s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x94FB //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x2C74 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: F0EF:33C6:F3F1:0946 //  Z: 0xEFF0 //  L: 0x693F //  H: 0x33C6F3F10946
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 46D7:3D16:E061:F944 //  Z: 0xD746 //  L: 0x5189 //  H: 0x3D16E061F944
-	Prefix (/48 subnet): 2001:0DB8:FFFF:AF67 //  Suffix: 1613:F139:A6D3:DE8D //  Z: 0x1316 //  L: 0x95D9 //  H: 0xF139A6D3DE8D
-Important Voucher Details:
-	Seed: 0x30796DBE352149980F7461F92198AFC4
-	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x0A84 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xB20B //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: B12B:0014:C192:D613 //  Z: 0x2BB1 //  L: 0x3301 //  H: 0x0014C192D613
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 308B:B591:0771:20E0 //  Z: 0x8B30 //  L: 0x9380 //  H: 0xB591077120E0
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:3B55 //  Suffix: 3B84:4D6E:B1F8:7CEB //  Z: 0x843B //  L: 0x9C8B //  H: 0x4D6EB1F87CEB
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m1.154s
-user	0m1.147s
-sys	0m0.003s
+real	0m3.789s
+user	0m23.241s
+sys	0m0.961s
 
 
 ==============================================
 Test #13...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x3368AB099E06A5350AD2ADCD35C4057A
+	Algorithm: Scrypt  (SCALING_FACTOR: 2)
+
+Generating VBAs...
+0  (work factor '49B0'; generated in 0.002608s)
+1  (work factor '0DAA'; generated in 0.010218s)
+2  (work factor 'E829'; generated in 0.166314s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.002116s)
+3  (verified in 0.008429s)
+4  (verified in 0.164505s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xB8DE //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x0051 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C96B:DA13:EE93:9AAB //  Z: 0x6BC9 //  L: 0xC123 //  H: 0xDA13EE939AAB
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 60FC:BF15:89FA:D213 //  Z: 0xFC60 //  L: 0x568A //  H: 0xBF1589FAD213
-	Prefix (/48 subnet): 2001:0DB8:FFFF:404F //  Suffix: 9A77:0A29:C803:AEEA //  Z: 0x779A //  L: 0xDD70 //  H: 0x0A29C803AEEA
-Important Voucher Details:
-	Seed: 0x1555C85F505BF187B0DB47BD98770C30
-	Algorithm: Scrypt  (SCALING_FACTOR: 1)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x85F8 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x3D77 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 7CDE:2F4B:5081:4536 //  Z: 0xDE7C //  L: 0x49B0 //  H: 0x2F4B50814536
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 669A:EE1D:672F:46C6 //  Z: 0x9A66 //  L: 0x0DAA //  H: 0xEE1D672F46C6
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:0EFF //  Suffix: E57F:572D:C008:67A4 //  Z: 0x7FE5 //  L: 0xE829 //  H: 0x572DC00867A4
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m0.347s
-user	0m0.342s
-sys	0m0.004s
+real	0m0.437s
+user	0m0.431s
+sys	0m0.005s
 
 
 ==============================================
 Test #14...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x4548CD7D16043E3D12142E10F415CBB1
+	Algorithm: Argon2  (Parallelism: 6 // MemorySize: 23108)
+
+Generating VBAs...
+0  (work factor '9B02'; generated in 3.863662s)
+1  (work factor 'B09C'; generated in 4.403550s)
+2  (work factor 'EF3F'; generated in 5.925764s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 3.938526s)
+3  (verified in 4.601130s)
+4  (verified in 6.721866s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x60D6 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xD859 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 8513:716E:087A:A67A //  Z: 0x1385 //  L: 0x6167 //  H: 0x716E087AA67A
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 8850:C41C:A070:2B28 //  Z: 0x5088 //  L: 0x226A //  H: 0xC41CA0702B28
-	Prefix (/48 subnet): 2001:0DB8:FFFF:61B9 //  Suffix: 5428:8536:6EF8:0FB5 //  Z: 0x2854 //  L: 0x5AB6 //  H: 0x85366EF80FB5
-Important Voucher Details:
-	Seed: 0x1D8DD329300DCB17EB193027B766C80C
-	Algorithm: Argon2  (Parallelism: 1 // MemorySize: 15872)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xA58E //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x1D01 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: B82C:9DB9:0AE9:B938 //  Z: 0x2CB8 //  L: 0x9B02 //  H: 0x9DB90AE9B938
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 2607:9A83:A5F5:603F //  Z: 0x0726 //  L: 0xB09C //  H: 0x9A83A5F5603F
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:14D3 //  Suffix: 8558:1948:7462:E510 //  Z: 0x5885 //  L: 0xEF3F //  H: 0x19487462E510
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m9.013s
-user	0m8.978s
-sys	0m0.013s
+real	0m6.773s
+user	0m33.213s
+sys	0m1.201s
 
 
 ==============================================
 Test #15...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x7D2D67DEF67C43EA61C0E84F2619AF86
+	Algorithm: PBKDF2  (ITERATIONS_FACTOR: 78)
+
+Generating VBAs...
+0  (work factor 'B9C3'; generated in 1.883250s)
+1  (work factor '0A21'; generated in 0.097522s)
+2  (work factor '2343'; generated in 0.344849s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 1.788640s)
+3  (verified in 0.098790s)
+4  (verified in 0.340179s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xEAE3 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x526C //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 2622:8451:B165:3478 //  Z: 0x2226 //  L: 0xDAF1 //  H: 0x8451B1653478
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: E663:BBE4:81D4:058E //  Z: 0x63E6 //  L: 0x9B31 //  H: 0xBBE481D4058E
-	Prefix (/48 subnet): 2001:0DB8:FFFF:378D //  Suffix: 6345:AEE8:BFF4:073F //  Z: 0x4563 //  L: 0xBDB4 //  H: 0xAEE8BFF4073F
-Important Voucher Details:
-	Seed: 0x28077287256F751A32D6E91ED198B4C1
-	Algorithm: Scrypt  (SCALING_FACTOR: 4)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xC0B6 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x7839 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 416B:9E41:1795:AB4D //  Z: 0x6B41 //  L: 0xB9C3 //  H: 0x9E411795AB4D
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A3D8:43BA:1B5A:63A9 //  Z: 0xD8A3 //  L: 0x0A21 //  H: 0x43BA1B5A63A9
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:3E4D //  Suffix: C1F1:889B:0B1F:4006 //  Z: 0xF1C1 //  L: 0x2343 //  H: 0x889B0B1F4006
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m3.698s
-user	0m3.685s
-sys	0m0.002s
+real	0m7.602s
+user	0m7.594s
+sys	0m0.001s
 
 
 ==============================================
 Test #16...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x6658E4C9D2CB873EECF066FD1F4969B6
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 46498)
+
+Generating VBAs...
+0  (work factor '1A78'; generated in 1.674042s)
+1  (work factor '1D88'; generated in 1.872511s)
+2  (work factor '7BF9'; generated in 7.831292s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 1.817954s)
+3  (verified in 2.013944s)
+4  (verified in 8.233317s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x0605 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xBE8A //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 7AA4:D4E4:B3B6:DE21 //  Z: 0xA47A //  L: 0xB04B //  H: 0xD4E4B3B6DE21
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 749E:F125:948D:29C7 //  Z: 0x9E74 //  L: 0x8A45 //  H: 0xF125948D29C7
-	Prefix (/48 subnet): 2001:0DB8:FFFF:F797 //  Suffix: 3D8E:993A:D912:59B5 //  Z: 0x8E3D //  L: 0x9A0C //  H: 0x993AD91259B5
-Important Voucher Details:
-	Seed: 0xCEEBAE07000EF640C930933822E2ACBE
-	Algorithm: Argon2  (Parallelism: 4 // MemorySize: 19336)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xB5AD //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x0D22 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: E1BD:2445:F6BF:D283 //  Z: 0xBDE1 //  L: 0x1A78 //  H: 0x2445F6BFD283
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 11BA:2C92:9CDF:3FAA //  Z: 0xBA11 //  L: 0x1D88 //  H: 0x2C929CDF3FAA
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:AAF1 //  Suffix: 60DC:C172:9EE8:22A9 //  Z: 0xDC60 //  L: 0x7BF9 //  H: 0xC1729EE822A9
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m5.666s
-user	0m19.998s
-sys	0m0.630s
+real	0m5.207s
+user	0m35.424s
+sys	0m1.074s
 
 
 ==============================================
 Test #17...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0xE702C7EDC0EFEC2D5C10C4351A1E974E
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 58664)
+
+Generating VBAs...
+0  (work factor '1569'; generated in 1.885519s)
+1  (work factor 'AD2E'; generated in 14.652567s)
+2  (work factor 'A100'; generated in 13.632108s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 1.883324s)
+3  (verified in 14.635372s)
+4  (verified in 13.631817s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x0AEF //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xB260 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: CCCF:E205:9A59:AFF8 //  Z: 0xCFCC //  L: 0xD717 //  H: 0xE2059A59AFF8
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: DE5A:42CA:2CE0:F8A3 //  Z: 0x5ADE //  L: 0x4205 //  H: 0x42CA2CE0F8A3
-	Prefix (/48 subnet): 2001:0DB8:FFFF:6FF6 //  Suffix: 3DDD:42D5:FEA0:8DA8 //  Z: 0xDD3D //  L: 0xC5E6 //  H: 0x42D5FEA08DA8
-Important Voucher Details:
-	Seed: 0x24E773DD2DE4CA4B58C08A568CB6973E
-	Algorithm: Scrypt  (SCALING_FACTOR: 1)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xEF2C //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x57A3 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 71E8:761D:FEFD:5924 //  Z: 0xE871 //  L: 0x1569 //  H: 0x761DFEFD5924
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3650:22EB:F9E8:328C //  Z: 0x5036 //  L: 0xAD2E //  H: 0x22EBF9E8328C
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:B4E9 //  Suffix: 185C:15AB:E06B:0E4A //  Z: 0x5C18 //  L: 0xA100 //  H: 0x15ABE06B0E4A
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m0.501s
-user	0m0.497s
-sys	0m0.003s
+real	0m12.320s
+user	1m25.835s
+sys	0m2.079s
 
 
 ==============================================
 Test #18...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 The PBKDF2 KDF failed!
-ERROR: Exit code '-2'.
+Important Voucher Details:
+	Seed: 0x212AFA5579D8539E86F56E5ABBADFFAD
+	Algorithm: Scrypt  (SCALING_FACTOR: 3)
 
-real	0m2.317s
-user	0m2.313s
-sys	0m0.001s
+Generating VBAs...
+0  (work factor 'B0F8'; generated in 0.611377s)
+1  (work factor 'AA62'; generated in 0.055264s)
+2  (work factor '1C0B'; generated in 0.000104s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.545285s)
+3  (verified in 0.054889s)
+4  (verified in 0.000101s)
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xC7EA //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x7F65 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 2665:C151:6051:7672 //  Z: 0x6526 //  L: 0xB0F8 //  H: 0xC15160517672
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: BC7F:16BE:ACE5:4F5E //  Z: 0x7FBC //  L: 0xAA62 //  H: 0x16BEACE54F5E
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:1CE1 //  Suffix: D5C9:0A6C:620F:FBFE //  Z: 0xC9D5 //  L: 0x1C0B //  H: 0x0A6C620FFBFE
+		(VBA verification success.)
+
+
+All checks passed!
+
+
+real	0m2.574s
+user	0m2.569s
+sys	0m0.003s
 
 
 ==============================================
 Test #19...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x2C6BB2285FA1A03FAFB48443754C6DEA
+	Algorithm: Argon2  (Parallelism: 6 // MemorySize: 28648)
+
+Generating VBAs...
+0  (work factor '380A'; generated in 1.761014s)
+1  (work factor 'F026'; generated in 7.564945s)
+2  (work factor '7188'; generated in 3.885045s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 1.987151s)
+3  (verified in 8.371193s)
+4  (verified in 3.971439s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x3046 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x88C9 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 52AE:4CB6:D687:2D53 //  Z: 0xAE52 //  L: 0x8C20 //  H: 0x4CB6D6872D53
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 9C09:034F:1B3E:EEE6 //  Z: 0x099C //  L: 0x2BEE //  H: 0x034F1B3EEEE6
-	Prefix (/48 subnet): 2001:0DB8:FFFF:D8EA //  Suffix: 1B85:2713:BA61:B807 //  Z: 0x851B //  L: 0xA769 //  H: 0x2713BA61B807
-Important Voucher Details:
-	Seed: 0x8DDD1211915BB7A6473FA6D0A67D370F
-	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 54994)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x86E7 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x3E68 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: D9AC:0BB0:0D27:E53D //  Z: 0xACD9 //  L: 0x380A //  H: 0x0BB00D27E53D
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: F564:C8D3:16DC:BF3C //  Z: 0x64F5 //  L: 0xF026 //  H: 0xC8D316DCBF3C
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:DABD //  Suffix: 5BE5:D6E2:4B6C:A609 //  Z: 0xE55B //  L: 0x7188 //  H: 0xD6E24B6CA609
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m10.231s
-user	1m6.808s
-sys	0m1.748s
+real	0m6.729s
+user	0m33.447s
+sys	0m1.040s
 
 
 ==============================================
 Test #20...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x80F48458A5FD4C00A681A3E388D189AD
+	Algorithm: Argon2  (Parallelism: 4 // MemorySize: 11684)
+
+Generating VBAs...
+0  (work factor '4AAF'; generated in 0.817823s)
+1  (work factor '985F'; generated in 1.649295s)
+2  (work factor 'A787'; generated in 1.793053s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.788996s)
+3  (verified in 1.636056s)
+4  (verified in 1.784933s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x3AEC //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x8263 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C661:7117:41A0:210B //  Z: 0x61C6 //  L: 0x491E //  H: 0x711741A0210B
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: F277:4C1A:B8AA:AF98 //  Z: 0x77F2 //  L: 0x5F2A //  H: 0x4C1AB8AAAF98
-	Prefix (/48 subnet): 2001:0DB8:FFFF:7BD9 //  Suffix: C345:5AEF:767C:B04F //  Z: 0x45C3 //  L: 0x6D1B //  H: 0x5AEF767CB04F
-Important Voucher Details:
-	Seed: 0x27D7B35D69F752B51C3753A341C193A1
-	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 45682)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x194B //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xA1C4 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: D041:8D99:CB8C:AF7F //  Z: 0x41D0 //  L: 0x4AAF //  H: 0x8D99CB8CAF7F
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 2093:4408:5A0E:7404 //  Z: 0x9320 //  L: 0x985F //  H: 0x44085A0E7404
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:3DE0 //  Suffix: F8AC:4C95:1534:CBAC //  Z: 0xACF8 //  L: 0xA787 //  H: 0x4C951534CBAC
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m7.873s
-user	0m47.679s
-sys	0m1.508s
+real	0m2.896s
+user	0m10.037s
+sys	0m0.460s
 
 
 ==============================================
 Test #21...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0xA104E1ACD5E68589D20F62E57C858CA1
+	Algorithm: Argon2  (Parallelism: 4 // MemorySize: 8646)
+
+Generating VBAs...
+0  (work factor '299A'; generated in 0.355917s)
+1  (work factor '24B0'; generated in 0.333023s)
+2  (work factor 'E1D8'; generated in 1.799631s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.337698s)
+3  (verified in 0.295192s)
+4  (verified in 1.751643s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x200D //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x9882 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 6E72:3A03:CB53:1229 //  Z: 0x726E //  L: 0x4057 //  H: 0x3A03CB531229
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A8D0:7FF4:AC73:0535 //  Z: 0xD0A8 //  L: 0xE291 //  H: 0x7FF4AC730535
-	Prefix (/48 subnet): 2001:0DB8:FFFF:E04B //  Suffix: 2920:F496:6CB4:4F9B //  Z: 0x2029 //  L: 0x1210 //  H: 0xF4966CB44F9B
-Important Voucher Details:
-	Seed: 0xC6CD181C67847AF6F358315802743D37
-	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xE96A //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x51E5 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C4D2:A288:4605:207E //  Z: 0xD2C4 //  L: 0x299A //  H: 0xA2884605207E
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: EEDF:17BA:E1B5:645D //  Z: 0xDFEE //  L: 0x24B0 //  H: 0x17BAE1B5645D
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:57F5 //  Suffix: 861A:A766:6E49:BF20 //  Z: 0x1A86 //  L: 0xE1D8 //  H: 0xA7666E49BF20
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m0.460s
-user	0m0.457s
-sys	0m0.003s
+real	0m2.118s
+user	0m6.922s
+sys	0m0.423s
 
 
 ==============================================
 Test #22...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x26281358A63524DCE0F1FD445EA5185F
+	Algorithm: PBKDF2  (ITERATIONS_FACTOR: 45)
+
+Generating VBAs...
+0  (work factor '19BC'; generated in 0.179680s)
+1  (work factor '8228'; generated in 0.751049s)
+2  (work factor 'FF2F'; generated in 1.419749s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.142949s)
+3  (verified in 0.726298s)
+4  (verified in 1.421971s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x34FD //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x8C72 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: D74B:F015:F0E0:81BE //  Z: 0x4BD7 //  L: 0x6D1E //  H: 0xF015F0E081BE
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 6E23:5B3D:7E35:C272 //  Z: 0x236E //  L: 0x05A7 //  H: 0x5B3D7E35C272
-	Prefix (/48 subnet): 2001:0DB8:FFFF:5832 //  Suffix: 5C34:B813:2E06:62C5 //  Z: 0x345C //  L: 0x1295 //  H: 0xB8132E0662C5
-Important Voucher Details:
-	Seed: 0x36D980A6A754E00C12175E2282F5C114
-	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 59794)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xC5ED //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x7D62 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 65CE:1DD8:459E:2A9E //  Z: 0xCE65 //  L: 0x19BC //  H: 0x1DD8459E2A9E
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: F155:187E:2FF4:E02D //  Z: 0x55F1 //  L: 0x8228 //  H: 0x187E2FF4E02D
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:6AF2 //  Suffix: F628:6247:6A71:1BC3 //  Z: 0x28F6 //  L: 0xFF2F //  H: 0x62476A711BC3
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m6.582s
-user	0m38.299s
-sys	0m1.240s
+real	0m6.452s
+user	0m6.444s
+sys	0m0.001s
 
 
 ==============================================
 Test #23...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x067FC8F91621136023FD8AE4AD13668A
+	Algorithm: PBKDF2  (ITERATIONS_FACTOR: 244)
+
+Generating VBAs...
+0  (work factor '24D5'; generated in 1.115036s)
+1  (work factor '1CCC'; generated in 0.868196s)
+2  (work factor '12CC'; generated in 0.568360s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 1.111610s)
+3  (verified in 0.867872s)
+4  (verified in 0.566951s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xDCD4 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x645B //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: FABD:2ECE:533A:05E1 //  Z: 0xBDFA //  L: 0x731A //  H: 0x2ECE533A05E1
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: A975:0483:D7DE:96D8 //  Z: 0x75A9 //  L: 0xBB49 //  H: 0x0483D7DE96D8
-	Prefix (/48 subnet): 2001:0DB8:FFFF:6636 //  Suffix: 9117:7D2C:57DC:E49D //  Z: 0x1791 //  L: 0xD971 //  H: 0x7D2C57DCE49D
-Important Voucher Details:
-	Seed: 0x1F31E8F0E32C3D6435CFFD4E67D48429
-	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x92CD //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x2A42 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 2CA4:7BD7:924F:3CBD //  Z: 0xA42C //  L: 0x24D5 //  H: 0x7BD7924F3CBD
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 359C:A7F7:E2FB:B954 //  Z: 0x9C35 //  L: 0x1CCC //  H: 0xA7F7E2FBB954
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:F966 //  Suffix: 3592:7595:88C2:1CFF //  Z: 0x9235 //  L: 0x12CC //  H: 0x759588C21CFF
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m1.739s
-user	0m1.731s
-sys	0m0.002s
+real	0m10.810s
+user	0m10.799s
+sys	0m0.001s
 
 
 ==============================================
 Test #24...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0xF8804E9EC3011A9816D42D097A9A1BA1
+	Algorithm: PBKDF2  (ITERATIONS_FACTOR: 142)
+
+Generating VBAs...
+0  (work factor '0C96'; generated in 0.223664s)
+1  (work factor '7330'; generated in 2.033905s)
+2  (work factor '2541'; generated in 0.655074s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.224485s)
+3  (verified in 2.044410s)
+4  (verified in 0.654765s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x1F41 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xA7CE //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C904:DEFD:1C47:1ACB //  Z: 0x04C9 //  L: 0x09BC //  H: 0xDEFD1C471ACB
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 684E:F8D4:FD9A:B161 //  Z: 0x4E68 //  L: 0x431D //  H: 0xF8D4FD9AB161
-	Prefix (/48 subnet): 2001:0DB8:FFFF:11C2 //  Suffix: 4257:5C61:780E:EB16 //  Z: 0x5742 //  L: 0x5A37 //  H: 0x5C61780EEB16
-Important Voucher Details:
-	Seed: 0x8AF282C2C42AF8FE674096D909B61EA0
-	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 32120)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x6D33 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xD5BC //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 9173:7CD7:78E5:D95F //  Z: 0x7391 //  L: 0x0C96 //  H: 0x7CD778E5D95F
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 370C:9679:CEDD:01A6 //  Z: 0x0C37 //  L: 0x7330 //  H: 0x9679CEDD01A6
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:C116 //  Suffix: 465A:4288:6BCD:F4C1 //  Z: 0x5A46 //  L: 0x2541 //  H: 0x42886BCDF4C1
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m3.842s
-user	0m23.386s
-sys	0m0.872s
+real	0m11.592s
+user	0m11.574s
+sys	0m0.003s
 
 
 ==============================================
 Test #25...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x6F231EE9C85BBADB7220DE32E789F698
+	Algorithm: Argon2  (Parallelism: 2 // MemorySize: 42812)
+
+Generating VBAs...
+0  (work factor '841A'; generated in 4.573062s)
+1  (work factor '8804'; generated in 4.719980s)
+2  (work factor 'C919'; generated in 6.943519s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 4.574169s)
+3  (verified in 4.705909s)
+4  (verified in 6.938269s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x2C94 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x941B //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 9A06:A736:B816:180C //  Z: 0x069A //  L: 0x383A //  H: 0xA736B816180C
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 629B:6857:EB22:AB37 //  Z: 0x9B62 //  L: 0xA5C2 //  H: 0x6857EB22AB37
-	Prefix (/48 subnet): 2001:0DB8:FFFF:A062 //  Suffix: 51DF:01D3:B2CF:1C96 //  Z: 0xDF51 //  L: 0xE1F1 //  H: 0x01D3B2CF1C96
-Important Voucher Details:
-	Seed: 0x5FC122B94468CFAAB301016A0203196C
-	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xCEA4 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x762B //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 8A58:4A8A:798E:1B8C //  Z: 0x588A //  L: 0x841A //  H: 0x4A8A798E1B8C
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 9454:BE45:AAF9:37D2 //  Z: 0x5494 //  L: 0x8804 //  H: 0xBE45AAF937D2
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:89BB //  Suffix: 8915:00FD:65FF:A7A9 //  Z: 0x1589 //  L: 0xC919 //  H: 0x00FD65FFA7A9
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m0.813s
-user	0m0.810s
-sys	0m0.001s
+real	0m22.369s
+user	0m43.058s
+sys	0m0.623s
 
 
 ==============================================
 Test #26...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0xCBB52BE88F5485B40CDD9F72078E1DC0
+	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+
+Generating VBAs...
+0  (work factor '314E'; generated in 0.012569s)
+1  (work factor 'E28B'; generated in 1.605771s)
+2  (work factor 'DBFD'; generated in 3.721492s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.010577s)
+3  (verified in 1.607826s)
+4  (verified in 3.573573s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xB127 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x09A8 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 686D:4770:2869:5E52 //  Z: 0x6D68 //  L: 0xCE7B //  H: 0x477028695E52
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 7159:6EDA:BFB7:4229 //  Z: 0x5971 //  L: 0xFA62 //  H: 0x6EDABFB74229
-	Prefix (/48 subnet): 2001:0DB8:FFFF:4B10 //  Suffix: 88AD:E1D3:EF42:EB6F //  Z: 0xAD88 //  L: 0x0E9B //  H: 0xE1D3EF42EB6F
-Important Voucher Details:
-	Seed: 0xEC5CA93FC129E6A463194B1D9512E4AC
-	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x5800 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xE08F //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 7A7B:8123:D410:C4D0 //  Z: 0x7B7A //  L: 0x314E //  H: 0x8123D410C4D0
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: BFA8:B4A8:B84F:4FBC //  Z: 0xA8BF //  L: 0xE28B //  H: 0xB4A8B84F4FBC
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:4D53 //  Suffix: C991:B232:3FA8:0771 //  Z: 0x91C9 //  L: 0xDBFD //  H: 0xB2323FA80771
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m2.515s
-user	0m2.500s
-sys	0m0.009s
+real	0m12.744s
+user	0m12.722s
+sys	0m0.007s
 
 
 ==============================================
 Test #27...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 The PBKDF2 KDF failed!
-ERROR: Exit code '-2'.
+Important Voucher Details:
+	Seed: 0xD0814411C48B0215C92CF89BC9966737
+	Algorithm: Scrypt  (SCALING_FACTOR: 2)
 
-real	0m3.420s
-user	0m3.412s
+Generating VBAs...
+0  (work factor '1D61'; generated in 0.000533s)
+1  (work factor '7DB6'; generated in 0.040620s)
+2  (work factor '3077'; generated in 0.005884s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.000523s)
+3  (verified in 0.040469s)
+4  (verified in 0.005842s)
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x6C1B //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xD494 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 4E63:F356:97B8:BCD3 //  Z: 0x634E //  L: 0x1D61 //  H: 0xF35697B8BCD3
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 9903:D6C3:E89E:979A //  Z: 0x0399 //  L: 0x7DB6 //  H: 0xD6C3E89E979A
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:4599 //  Suffix: 584E:03F2:FBFC:5E22 //  Z: 0x4E58 //  L: 0x3077 //  H: 0x03F2FBFC5E22
+		(VBA verification success.)
+
+
+All checks passed!
+
+
+real	0m0.269s
+user	0m0.263s
 sys	0m0.002s
 
 
@@ -765,108 +1404,247 @@ sys	0m0.002s
 Test #28...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0xCB3404E9F745894869CE113B12D11C6E
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 110)
+
+Generating VBAs...
+0  (work factor 'EE59'; generated in 0.305488s)
+1  (work factor 'CDDF'; generated in 0.265807s)
+2  (work factor '87B7'; generated in 0.174960s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.235446s)
+3  (verified in 0.193223s)
+4  (verified in 0.130713s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xA595 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x1D1A //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 0B00:2EF9:6492:BF7F //  Z: 0x000B //  L: 0xB7AA //  H: 0x2EF96492BF7F
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: C8C6:A090:FF0C:6FC3 //  Z: 0xC6C8 //  L: 0x7169 //  H: 0xA090FF0C6FC3
-	Prefix (/48 subnet): 2001:0DB8:FFFF:889E //  Suffix: E3E7:C49F:57B2:B233 //  Z: 0xE7E3 //  L: 0x5042 //  H: 0xC49F57B2B233
-Important Voucher Details:
-	Seed: 0x5E480A176EAD2C61CC210412BE541014
-	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xD900 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x618F //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 6D25:DA65:560C:146A //  Z: 0x256D //  L: 0xEE59 //  H: 0xDA65560C146A
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: EB06:D956:66F7:B6D9 //  Z: 0x06EB //  L: 0xCDDF //  H: 0xD95666F7B6D9
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:FA3E //  Suffix: 834C:8A16:8EEF:75EC //  Z: 0x4C83 //  L: 0x87B7 //  H: 0x8A168EEF75EC
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m1.090s
-user	0m1.088s
-sys	0m0.001s
+real	0m1.036s
+user	0m0.436s
+sys	0m1.287s
 
 
 ==============================================
 Test #29...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 The PBKDF2 KDF failed!
-ERROR: Exit code '-2'.
+Important Voucher Details:
+	Seed: 0xEE8F7AB2DC3A32029337B7B2E4BB3B63
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 56548)
 
-real	0m0.521s
-user	0m0.520s
-sys	0m0.001s
+Generating VBAs...
+0  (work factor '3743'; generated in 4.263449s)
+1  (work factor 'D0A6'; generated in 15.859778s)
+2  (work factor '6FC0'; generated in 8.521487s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 4.501053s)
+3  (verified in 16.969164s)
+4  (verified in 9.115647s)
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x6225 //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xDAAA //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 5247:FC18:B61D:172B //  Z: 0x4752 //  L: 0x3743 //  H: 0xFC18B61D172B
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: B7A0:EF20:D560:C013 //  Z: 0xA0B7 //  L: 0xD0A6 //  H: 0xEF20D560C013
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:D97E //  Suffix: D11F:D039:DC7B:62C0 //  Z: 0x1FD1 //  L: 0x6FC0 //  H: 0xD039DC7B62C0
+		(VBA verification success.)
+
+
+All checks passed!
+
+
+real	0m11.601s
+user	1m21.402s
+sys	0m2.002s
 
 
 ==============================================
 Test #30...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x70FD0A94406893BCA02CC1B8F0564C75
+	Algorithm: Argon2  (Parallelism: 8 // MemorySize: 1332)
+
+Generating VBAs...
+0  (work factor '64DE'; generated in 0.275077s)
+1  (work factor 'EFC9'; generated in 0.598642s)
+2  (work factor '2CD3'; generated in 0.101369s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 0.225880s)
+3  (verified in 0.537901s)
+4  (verified in 0.099070s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x2EDF //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x9650 //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: D3D5:8D4E:1B83:A126 //  Z: 0xD5D3 //  L: 0xE938 //  H: 0x8D4E1B83A126
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: BE64:90B0:AF69:8A4F //  Z: 0x64BE //  L: 0x5855 //  H: 0x90B0AF698A4F
-	Prefix (/48 subnet): 2001:0DB8:FFFF:3CC1 //  Suffix: 242F:4267:1888:56AF //  Z: 0x2F24 //  L: 0x13CF //  H: 0x4267188856AF
-Important Voucher Details:
-	Seed: 0x14C3FEFD9C397A3B2E188FCB10ECA29F
-	Algorithm: Scrypt  (SCALING_FACTOR: 3)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x10BB //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xA834 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 5166:A2AC:78F3:8D1C //  Z: 0x6651 //  L: 0x64DE //  H: 0xA2AC78F38D1C
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 46ED:6559:8B80:817D //  Z: 0xED46 //  L: 0xEFC9 //  H: 0x65598B80817D
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:BDFB //  Suffix: 5C2E:D41B:7B5E:ECD5 //  Z: 0x2E5C //  L: 0x2CD3 //  H: 0xD41B7B5EECD5
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m1.015s
-user	0m1.010s
-sys	0m0.002s
+real	0m0.871s
+user	0m1.332s
+sys	0m0.927s
 
 
 ==============================================
 Test #31...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 1 2 OK
-Self-verifying interface addresses...  0 1 2 3 4 OK
+Important Voucher Details:
+	Seed: 0x60D74E7E9E5E96E09915A77985D2F920
+	Algorithm: PBKDF2  (ITERATIONS_FACTOR: 181)
+
+Generating VBAs...
+0  (work factor '969E'; generated in 3.430417s)
+1  (work factor '3DE9'; generated in 1.393233s)
+2  (work factor '2476'; generated in 0.814907s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 3.371432s)
+3  (verified in 1.384831s)
+4  (verified in 0.814032s)
 
 
 SUMMARY
 Mac Address:
 	AB-CD-EF-11-22-33 
 Addresses:
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x07D1 //  H: 0xABABABABABAB
-	Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0xBF5E //  H: 0x050505050505
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: ADBB:2870:1B86:8DEB //  Z: 0xBBAD //  L: 0xAE48 //  H: 0x28701B868DEB
-	Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: B4AB:6F66:12FB:67F5 //  Z: 0xABB4 //  L: 0xBE51 //  H: 0x6F6612FB67F5
-	Prefix (/48 subnet): 2001:0DB8:FFFF:C4E3 //  Suffix: 5BCB:9D25:3155:5066 //  Z: 0xCB5B //  L: 0xDEBE //  H: 0x9D2531555066
-Important Voucher Details:
-	Seed: 0x1AEA9E0E1E8CC9BABC91056C07294261
-	Algorithm: Argon2  (Parallelism: 4 // MemorySize: 40144)
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0x3AAB //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x8224 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 01BE:BD70:7147:6362 //  Z: 0xBE01 //  L: 0x969E //  H: 0xBD7071476362
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 7615:267A:F8C4:9724 //  Z: 0x1576 //  L: 0x3DE9 //  H: 0x267AF8C49724
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:858A //  Suffix: E90C:EF5E:2C53:144E //  Z: 0x0CE9 //  L: 0x2476 //  H: 0xEF5E2C53144E
+		(VBA verification success.)
+
 
 All checks passed!
 
 
-real	0m14.532s
-user	0m53.413s
-sys	0m1.032s
+real	0m15.452s
+user	0m15.436s
+sys	0m0.002s
 
 
 ==============================================
 Test #32...
 
 Parsing Link Voucher option...  OK
-Generating VBAs...  0 The PBKDF2 KDF failed!
-ERROR: Exit code '-2'.
+Important Voucher Details:
+	Seed: 0x35342A25C7B185249732D3B2740CB641
+	Algorithm: PBKDF2  (ITERATIONS_FACTOR: 250)
 
-real	0m0.408s
-user	0m0.405s
-sys	0m0.002s
+Generating VBAs...
+0  (work factor 'E0DF'; generated in 6.953610s)
+1  (work factor '8B22'; generated in 4.315420s)
+2  (work factor 'CF6F'; generated in 6.464795s)
+
+
+Self-verifying interface addresses...
+0  NOT A VBA. Verification failed as it should.
+1  NOT A VBA. Verification failed as it should.
+2  (verified in 6.998132s)
+3  (verified in 4.327613s)
+4  (verified in 6.454620s)
+
+
+SUMMARY
+Mac Address:
+	AB-CD-EF-11-22-33 
+Addresses:
+	0:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 3412:ABAB:ABAB:ABAB //  Z: 0x1234 //  L: 0xD9FE //  H: 0xABABABABABAB
+		(VBA verification intentionally failed; this is a static address.)
+
+	1:  Prefix (/48 subnet): 2001:0DB8:FFFF:0000 //  Suffix: BBAA:0505:0505:0505 //  Z: 0xAABB //  L: 0x6171 //  H: 0x050505050505
+		(VBA verification intentionally failed; this is a static address.)
+
+	2:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: 152B:032D:47D5:5915 //  Z: 0x2B15 //  L: 0xE0DF //  H: 0x032D47D55915
+		(VBA verification success.)
+
+	3:  Prefix (/64 subnet): FE80:0000:0000:0000 //  Suffix: E840:9D72:8ED6:CB00 //  Z: 0x40E8 //  L: 0x8B22 //  H: 0x9D728ED6CB00
+		(VBA verification success.)
+
+	4:  Prefix (/48 subnet): 2001:0DB8:FFFF:87B4 //  Suffix: A504:BFEA:A92A:28F6 //  Z: 0x04A5 //  L: 0xCF6F //  H: 0xBFEAA92A28F6
+		(VBA verification success.)
+
+
+All checks passed!
+
+
+real	0m45.428s
+user	0m45.328s
+sys	0m0.001s
